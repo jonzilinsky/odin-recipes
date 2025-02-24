@@ -1,15 +1,38 @@
+* {
+ margin: 0px;
+}
+
 body {
   font-family: Verdana, serif;
   background-color: #d4e6f1;
   text-align: center
 }
 
+.subhead {
+  margin-top: 30px;
+}
+
+img {
+  margin-top: 22px;
+}
+
 h1 {
-  color: #b03a2e
+  color: #b03a2e;
+  background-color: #6488ea;
+  display:inline;
+  padding: 10px;
+  border: 6px solid black;
 }
 
 h3 {
   font-style: italic;
+  margin-bottom: 2px;
+  margin-top: 14px;
+}
+
+.box {
+  display: inline-block;
+  padding: 2px;
 }
 
 .recipe {
@@ -21,10 +44,15 @@ ul  {
   padding-left: 0;
 }
 ul li {
-   list-style-position: inside;
+  text-align: left; 
+  list-style-position: inside;
 }
 ol  {
   padding-left: 0;
 }
 ol li {
-   list-style-position: inside;
+  list-style-position: inside;
+  text-align: left; 
+}
+
+
